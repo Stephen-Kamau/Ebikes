@@ -1,0 +1,88 @@
+body{
+	/* color: #999; */
+	background-attachment: fixed;
+	font-family: 'Roboto' , sans-serif;
+	background-size: cover;
+}
+
+.form-control{
+	min-height: 42px;
+	box-shadow: none;
+	border-color: #e1e1e1;
+
+}
+.form-control:focus{
+	border-color: #80cb82;
+}
+.form-control , btn{
+	border-radius: 3px;
+}
+
+.form-header{
+	margin: -12px -13px 13px;
+	padding: 14px 15px 7px;
+	text-align: center;
+	/* background:#00cb83; */
+    color: rgb(194, 252, 3);
+	border-bottom: 1px solid #eee;
+}
+
+
+.signup{
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;
+
+}
+
+.signup form{
+	/* color: #999; */
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background:$f0f0f0;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+	padding: 30px;
+}
+
+.signup  .form-group{
+	margin-bottom: 20px;
+
+}
+
+.signup label{
+	font-weight: normal;
+	font-size: 12px;
+  color: rgb(194, 252, 3);
+}
+
+.signup .btn{
+	font-size: 16px;
+	font-weight: bold;
+	background: #00cb82;
+	border:none;
+	min-width: 200px;
+
+}
+
+.signup  input[type = "checkbox"]{
+	margin-top: 2px;
+}
+
+.signup .btn:hover {
+	background: #00b074;
+	outline: none;
+}
+
+.signup .btn:focus{
+	background: #00b074;
+	outline: none;
+}
+
+.signup a{
+	color: #08cb80;
+}
+
+.signup:hover{
+	text-decoration: none;
+	opacity: 0.7;
+}
